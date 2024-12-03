@@ -19,7 +19,7 @@ export const SecondSection: React.FC = () => {
 
       <div className="flex flex-col lg:flex-row items-center justify-between">
         {/* Imagem à esquerda do título */}
-        <div className="lg:w-[55%] mb-4 lg:mb-0 lg:-mr-20 lg:ml-20">
+        <div className="lg:w-[55%] sm:w-[80%] mb-4 lg:mb-0 lg:-mr-20 lg:ml-20">
           {/* A imagem agora tem 20% a mais de tamanho */}
           <Image src={aldImage} alt="Computer Image" width={700} height={360} />
         </div>
