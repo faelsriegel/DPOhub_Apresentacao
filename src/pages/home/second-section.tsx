@@ -12,7 +12,7 @@ export const SecondSection: React.FC = () => {
   return (
     <section className="container mx-auto">
       <div className="flex items-center justify-center">
-        <Button className="flex-none mb-8" variant="outline-muted">
+        <Button className="flex-none mb-8" variant="outlineMuted">
           A SOLID CORE
         </Button>
       </div>
