@@ -4,19 +4,19 @@ export const variants = tv({
   base: "scroll-m-20 text-white",
   variants: {
     variant: {
-      h1: "text-6xl font-regular tracking-tight sm:text-5xl md:text-4xl lg:text-3xl xl:text-2xl", // Ajustado para tamanhos mais coesos
-      h2: "text-5xl font-regular tracking-tight sm:text-4xl md:text-3xl lg:text-2xl xl:text-xl", // Ajustado para manter consistência com h1
-      body: "text-base lg:text-lg font-thin text-slice-text", // Ajuste para o corpo do texto
-      body2: "text-base lg:text-base font-thin text-slice-text", // Mantendo o tamanho base consistente
-      button: "text-sm lg:text-base", // Texto do botão ajustado
+      h1: "text-9xl font-regular tracking-tight sm:text-7xl md:text-6xl lg:text-5xl xl:text-4xl",
+      h2: "text-7xl font-regular tracking-tight sm:text-5xl md:text-4xl lg:text-3xl xl:text=2xl",
+      body: "text-md lg:text-xl font-thin text-slice-text",
+      body2: "text-md lg:text-md font-thin text-slice-text",
+      button: "text-md",
       sectionTitle:
-        "text-[32px] leading-[36px] lg:text-[50px] lg:leading-[50px] md:text-[40px] md:leading-[40px]", // Ajustando o tamanho do título da seção
+        "text-[36px] leading-[36px] lg:text-[60px] lg:leading-[100px] md:text-[40px] md:leading-[36px]",
       highlight:
-        "text-[32px] leading-[36px] sm:text-[50px] sm:leading-[50px] md:text-[60px] md:leading-[60px] lg:text-[80px] lg:leading-[80px] xl:text-[100px] xl:leading-[100px]", // Ajustado para um highlight mais coeso
+        "text-[40px] leading-[40px] sm:text-[60px] sm:leading-[60px] md:text-[80px] md:leading-[80px] lg:text-[120px] lg:leading-[120px] xl:text-[150px] xl:leading-[150px]",
     },
   },
   defaultVariants: {
-    variant: "h1", // Tamanho padrão h1
+    variant: "h1",
   },
 });
 

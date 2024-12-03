@@ -136,7 +136,7 @@ export const Footer: React.FC = () => {
               © Copyright 2024, Todos os Direitos Reservados pela DPOhub -
               Projeto de Desenvolvimento WEB
             </Typography>
-            <ul className="font-semibold flex items-center gap-4 mt-0 lg:mt-0">
+            <ul className="font-semibold flex items-center gap-4 mt-4 sm:mt-10 lg:mt-0">
               <li>
                 <a
                   href="#"

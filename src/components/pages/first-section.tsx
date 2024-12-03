@@ -59,14 +59,14 @@ export const FirstSection: React.FC = () => {
         <Typography
           as="h2"
           variant="sectionTitle"
-          className="text-primary leading-[1] mb-4"
+          className="text-primary leading-[1] mb-8"
         >
           Funcionalidades Essenciais <br />
           para Conformidade e Gestão
         </Typography>
 
         {/* Texto introdutório que descreve a seção */}
-        <Typography as="p" variant="body" className="max-w-[500px] mt-10">
+        <Typography as="p" variant="body" className="max-w-[500px] mt-12">
           Nossa plataforma oferece soluções completas para garantir a
           conformidade com a LGPD, protegendo dados pessoais e otimizando os
           processos regulatórios da sua empresa.

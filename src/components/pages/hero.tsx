@@ -16,12 +16,12 @@ export const Hero: React.FC = () => {
         <Typography
           as="h1" // Renderiza o componente como um elemento <h1>
           className="
-  text-primary 
-  font-regular 
-  text-[32px] leading-[38px] 
-  lg:text-[38px] lg:leading-[42px] 
-  lg-xl:text-[42px] lg-xl:leading-[48px] 
-  xl:text-[65px] xl:leading-[75px]
+       text-primary 
+        font-regular 
+        text-[32px] leading-[38px] 
+        lg:text-[38px] lg:leading-[42px] 
+        lg-xl:text-[42px] lg-xl:leading-[48px] 
+        xl:text-[65px] xl:leading-[70px]
 "
         >
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#868585]">
