@@ -59,7 +59,11 @@ export const FirstSection: React.FC = () => {
         <Typography
           as="h2"
           variant="sectionTitle"
-          className="text-primary leading-[1] mb-8"
+          className="text-primary leading-[1] mb-8 font-regular 
+        text-[24px] leading-[30px] 
+        lg:text-[28px] lg:leading-[32px] 
+        lg-xl:text-[30px] lg-xl:leading-[36px] 
+        xl:text-[40px] xl:leading-[44px]"
         >
           Funcionalidades Essenciais <br />
           para Conformidade e Gestão

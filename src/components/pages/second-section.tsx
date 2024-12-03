@@ -46,7 +46,7 @@ export const SecondSection: React.FC = () => {
       <Typography
         as="p"
         variant="body"
-        className="mt-14 text-center max-w-[820px] mx-auto"
+        className="mt-14 text-center max-w-[820px] mx-auto px-4 sm:px-8 lg:px-0"
       >
         Descubra como simplificar a conformidade com as normativas federais,
         assegurando com excelência a privacidade e a gestão das informações
