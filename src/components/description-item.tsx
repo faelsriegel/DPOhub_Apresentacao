@@ -1,11 +1,17 @@
 import React from "react";
-
 import { ChevronRight } from "lucide-react";
 import { twMerge } from "tailwind-merge";
 
 import { Typography } from "@/typography";
-import type { TypographyVariants } from "@/typography/variants";
-import { Button } from "./ui/button";
+
+type TypographyVariant =
+  | "h1"
+  | "h2"
+  | "body"
+  | "body2"
+  | "button"
+  | "sectionTitle"
+  | "highlight";
 
 type DescriptionItemProps = {
   title: string;
@@ -14,7 +20,7 @@ type DescriptionItemProps = {
   subtitle: string;
   description: string;
   action?: string;
-  variant?: TypographyVariants["variant"]; // Corrigido para aceitar apenas os valores válidos
+  variant?: TypographyVariant; // Tipagem estrita
 };
 
 const DescriptionItem: React.FC<DescriptionItemProps> = ({
@@ -23,7 +29,7 @@ const DescriptionItem: React.FC<DescriptionItemProps> = ({
   icon,
   subtitle,
   description,
-  variant = "body", // Garantido valor padrão válido
+  variant = "body", // Valor padrão compatível
   action = "",
 }) => {
   return (
@@ -49,15 +55,15 @@ const DescriptionItem: React.FC<DescriptionItemProps> = ({
       </Typography>
       <Typography
         as="p"
-        variant={variant} // Garantido que o valor seja válido
+        variant={variant} // Valor agora sempre válido
         className="mt-4 max-w-[450px] min-h-[100px]"
       >
         {description}
       </Typography>
       {action && (
-        <Button className="w-[126px] mt-4 flex items-center">
+        <button className="w-[126px] mt-4 flex items-center">
           Learn more <ChevronRight size="14" className="ml-1" />
-        </Button>
+        </button>
       )}
     </div>
   );
