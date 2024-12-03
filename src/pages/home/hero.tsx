@@ -57,3 +57,5 @@ export const Hero: React.FC = () => {
     </HeroFC>
   );
 };
+
+export default Hero;

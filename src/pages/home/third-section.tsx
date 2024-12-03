@@ -221,3 +221,5 @@ export const ThirdSection: React.FC = () => {
     </section>
   );
 };
+
+export default ThirdSection;

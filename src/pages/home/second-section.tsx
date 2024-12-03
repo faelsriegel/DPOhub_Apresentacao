@@ -108,3 +108,5 @@ export const SecondSection: React.FC = () => {
     </section>
   );
 };
+
+export default SecondSection;

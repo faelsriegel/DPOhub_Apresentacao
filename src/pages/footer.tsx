@@ -215,3 +215,5 @@ export const Footer: React.FC = () => {
     </footer>
   );
 };
+
+export default Footer; // Certifique-se de ter o export default

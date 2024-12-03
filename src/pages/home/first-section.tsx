@@ -58,3 +58,5 @@ export const FirstSection: React.FC = () => {
     </div>
   );
 };
+
+export default FirstSection;
