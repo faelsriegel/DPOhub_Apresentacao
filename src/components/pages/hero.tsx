@@ -3,7 +3,7 @@ import type React from "react"; // Importa o tipo React para definir o component
 import { Button } from "@/components/ui/button"; // Importa o componente de botão
 import { Typography } from "@/typography"; // Importa o componente tipográfico
 
-import { Hero as HeroFC } from "@/components/hero"; // Importa o componente de layout Hero
+import { Hero as HeroFC } from "@/components/layout/hero"; // Importa o componente de layout Hero
 
 // Componente Hero
 // Representa a seção de destaque da landing page
@@ -19,7 +19,10 @@ export const Hero: React.FC = () => {
           className="
   text-primary 
   font-regular 
-  text-[38px] leading-[42px] lg:text-[38px] lg:leading-[42px] lg-xl:text-[50px] lg-xl:leading-[60px] xl:text-[65px] xl:leading-[75px]
+  text-[32px] leading-[38px] 
+  lg:text-[38px] lg:leading-[42px] 
+  lg-xl:text-[42px] lg-xl:leading-[48px] 
+  xl:text-[65px] xl:leading-[75px]
 "
         >
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#868585]">
@@ -34,7 +37,7 @@ export const Hero: React.FC = () => {
           variant="body" // Variante de estilo configurada para textos
           className="text-primary font-bold mt-8" // Adiciona espaçamento superior
         >
-          Controle total com eficiência
+          Gerenciamento total com eficiência
         </Typography>
         {/** Descrição detalhada do Hero */}
         <Typography

@@ -1,8 +1,8 @@
 import type { Metadata } from "next"; // Importa o tipo Metadata para definir informações da página
 import { Montserrat } from "next/font/google"; // Importa a fonte Montserrat do Google Fonts
 
-import { Header } from "@/components/header"; // Importa o componente do cabeçalho
-import { Footer } from "@/components/footer";// Importa o componente do rodapé
+import { Header } from "@/components/layout/header"; // Importa o componente do cabeçalho
+import { Footer } from "@/components/layout/footer"; // Importa o componente do rodapé
 
 import "./globals.css"; // Importa estilos globais
 
@@ -27,7 +27,10 @@ export default function RootLayout({
   children: React.ReactNode; // Define o tipo do conteúdo que o layout aceita
 }>) {
   return (
-    <html lang="pt-br" className="bg-white">
+    <html
+      lang="pt-br"
+      className="bg-gradient-to-b from-[#f8f9fa] to-[#ffffff]"
+    >
       {/**
        * Define o idioma da página como português do Brasil (pt-br)
        * Aplica um fundo branco à página com a classe Tailwind `bg-white`

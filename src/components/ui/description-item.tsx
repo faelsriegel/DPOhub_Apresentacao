@@ -4,6 +4,7 @@ import { twMerge } from "tailwind-merge";
 
 import { Typography } from "@/typography";
 
+// Tipagem para variantes de tipografia
 type TypographyVariant =
   | "h1"
   | "h2"
@@ -13,14 +14,15 @@ type TypographyVariant =
   | "sectionTitle"
   | "highlight";
 
+// Tipagem para as propriedades do componente
 type DescriptionItemProps = {
-  title: string;
-  index: number;
-  icon: React.ReactNode;
-  subtitle: string;
-  description: string;
-  action?: string;
-  variant?: TypographyVariant; // Tipagem estrita
+  title: string; // Título do item
+  index: number; // Índice do item
+  icon: React.ReactNode; // Ícone do item
+  subtitle: React.ReactNode; // Alterado para aceitar JSX
+  description: string; // Descrição do item
+  action?: string; // Ação opcional
+  variant?: TypographyVariant; // Variante de tipografia
 };
 
 const DescriptionItem: React.FC<DescriptionItemProps> = ({
@@ -29,7 +31,7 @@ const DescriptionItem: React.FC<DescriptionItemProps> = ({
   icon,
   subtitle,
   description,
-  variant = "body", // Valor padrão compatível
+  variant = "body", // Valor padrão para variante
   action = "",
 }) => {
   return (
@@ -55,16 +57,11 @@ const DescriptionItem: React.FC<DescriptionItemProps> = ({
       </Typography>
       <Typography
         as="p"
-        variant={variant} // Valor agora sempre válido
+        variant={variant} // Valor sempre válido
         className="mt-4 max-w-[450px] min-h-[100px]"
       >
         {description}
       </Typography>
-      {action && (
-        <button className="w-[126px] mt-4 flex items-center">
-          Learn more <ChevronRight size="14" className="ml-1" />
-        </button>
-      )}
     </div>
   );
 };

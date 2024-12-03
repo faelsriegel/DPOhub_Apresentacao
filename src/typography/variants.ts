@@ -4,7 +4,7 @@ export const variants = tv({
   base: "scroll-m-20 text-white",
   variants: {
     variant: {
-      h1: "text-9xl font-extrabold tracking-tight sm:text-7xl md:text-6xl lg:text-5xl xl:text-4xl",
+      h1: "text-9xl font-regular tracking-tight sm:text-7xl md:text-6xl lg:text-5xl xl:text-4xl",
       h2: "text-7xl",
       body: "text-md lg:text-xl font-thin text-slice-text",
       body2: "text-md lg:text-md font-thin text-slice-text",

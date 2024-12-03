@@ -1,7 +1,7 @@
-import FirstSection from "@/components/sections/first-section";
-import Hero from "@/components/sections/hero";
-import SecondSection from "@/components/sections/second-section";
-import ThirdSection from "@/components/sections/third-section";
+import FirstSection from "@/components/pages/first-section";
+import Hero from "@/components/pages/hero";
+import SecondSection from "@/components/pages/second-section";
+import ThirdSection from "@/components/pages/third-section";
 
 
 export default function Home() {

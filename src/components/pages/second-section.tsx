@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { SliceIcon } from "@/components/ui/slice-icon";
 
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-import { WebsiteTable } from "@/components/website-table";
+import { WebsiteTable } from "@/components/ui/website-table";
 import { Typography } from "@/typography";
 
 export const SecondSection: React.FC = () => {
