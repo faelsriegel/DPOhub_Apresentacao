@@ -74,3 +74,6 @@ eslintcache
 
 # MacOS files
 ._*
+
+*.pack.gz
+*.pack.gz.old
