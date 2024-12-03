@@ -15,7 +15,7 @@ const montserrat = Montserrat({
 
 // Metadados da página (definem título e descrição)
 export const metadata: Metadata = {
-  title: "DPOhub", // Título exibido na aba do navegador
+  title: "DPOhub - Transforme a Gestão da LGPD em sua Empresa", // Título exibido na aba do navegador
   description: "Simplifique a gestão da LGPD com eficiência e controle.", // Descrição otimizada para SEO
 };
 
