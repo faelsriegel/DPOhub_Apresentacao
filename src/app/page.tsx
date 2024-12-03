@@ -1,7 +1,8 @@
-import { FirstSection } from "@/pages/home/first-section";
-import { Hero } from "@/pages/home/hero";
-import { SecondSection } from "@/pages/home/second-section";
-import { ThirdSection } from "@/pages/home/third-section";
+import FirstSection from "@/components/sections/first-section";
+import Hero from "@/components/sections/hero";
+import SecondSection from "@/components/sections/second-section";
+import ThirdSection from "@/components/sections/third-section";
+
 
 export default function Home() {
   return (

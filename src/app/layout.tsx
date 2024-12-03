@@ -1,8 +1,8 @@
 import type { Metadata } from "next"; // Importa o tipo Metadata para definir informações da página
 import { Montserrat } from "next/font/google"; // Importa a fonte Montserrat do Google Fonts
 
-import { Header } from "@/pages/header"; // Importa o componente do cabeçalho
-import { Footer } from "@/pages/footer"; // Importa o componente do rodapé
+import { Header } from "@/components/header"; // Importa o componente do cabeçalho
+import { Footer } from "@/components/footer";// Importa o componente do rodapé
 
 import "./globals.css"; // Importa estilos globais
 
