@@ -1,8 +1,6 @@
 import FirstSection from "@/components/pages/first-section";
 import Hero from "@/components/pages/hero";
 import SecondSection from "@/components/pages/second-section";
-import ThirdSection from "@/components/pages/third-section";
-
 
 export default function Home() {
   return (
@@ -11,7 +9,7 @@ export default function Home() {
       <FirstSection />
       <div className="w-full pt-20">
         <SecondSection />
-        <ThirdSection />
+      <div className="w-full pt-20"></div>
       </div>
     </main>
   );
