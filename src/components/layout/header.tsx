@@ -70,7 +70,7 @@ const menuSections = [
     href: "#", // Link para o item (atualmente um link vazio).
   },
   {
-    title: "Casos de Sucesso",
+    title: "Contato",
     href: "#",
   },
   {
@@ -78,7 +78,7 @@ const menuSections = [
     href: "#",
   },
   {
-    title: "Contato",
+    title: "Sobre",
     href: "#",
   },
 ];
@@ -89,7 +89,7 @@ export const Header = () => {
     <div className="px-12 lg:px-32 pt-2 flex justify-between items-center">
       {/** Logo da aplicação */}
       <div>
-        <Image src={logo} alt="DPOhub" width={100} height={100} />
+        <Image src={logo} alt="DPOhub" width={120} height={100} />
       </div>
 
       {/** Menu principal para telas grandes */}

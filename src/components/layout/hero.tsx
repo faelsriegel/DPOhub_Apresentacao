@@ -8,7 +8,7 @@ type HeroProps = {
 
 export const Hero: React.FC<HeroProps> = ({ children }) => {
   return (
-    <div className="w-full border-b border-slice-line h-full ">
+    <div className="w-full border-b border-slice-purple h-full ">
       <section className="container mx-auto py-20 min-h-screen flex flex-col items-center justify-center">
         {children}
       </section>

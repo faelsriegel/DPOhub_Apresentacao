@@ -15,7 +15,6 @@ export const Hero: React.FC = () => {
         {/** Título principal (h1) */}
         <Typography
           as="h1" // Renderiza o componente como um elemento <h1>
-          variant="highlight" // Variante de estilo configurada para títulos
           className="
   text-primary 
   font-regular 
