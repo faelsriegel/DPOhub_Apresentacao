@@ -24,8 +24,8 @@ export const ThirdSection: React.FC = () => {
         </div>
         <div className="relative z-1 container mx-auto md:px-0 px-14">
           <div className="flex items-center justify-center mt-32">
-            <Button className="flex-none mb-8" variant="outline-muted">
-              PRIVATE LEDGER TECHNOLOGY
+            <Button className="flex-none mb-8" variant="outlineMuted">
+              A SOLID CORE
             </Button>
           </div>
 
