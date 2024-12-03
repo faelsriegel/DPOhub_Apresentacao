@@ -1,4 +1,4 @@
-import type React from "react";
+import React from "react";
 
 import { ChevronRight } from "lucide-react";
 import { twMerge } from "tailwind-merge";
@@ -14,7 +14,7 @@ type DescriptionItemProps = {
   subtitle: string;
   description: string;
   action?: string;
-  variant?: TypographyVariants;
+  variant?: TypographyVariants["variant"]; // Corrigido para aceitar apenas os valores válidos
 };
 
 const DescriptionItem: React.FC<DescriptionItemProps> = ({
@@ -23,7 +23,7 @@ const DescriptionItem: React.FC<DescriptionItemProps> = ({
   icon,
   subtitle,
   description,
-  variant = "body",
+  variant = "body", // Garantido valor padrão válido
   action = "",
 }) => {
   return (
@@ -31,7 +31,7 @@ const DescriptionItem: React.FC<DescriptionItemProps> = ({
       key={title}
       className={twMerge(
         "flex flex-col gap-4",
-        index === 2 && "col-span-3 lg:col-span-1",
+        index === 2 && "col-span-3 lg:col-span-1"
       )}
     >
       {icon}
@@ -49,7 +49,7 @@ const DescriptionItem: React.FC<DescriptionItemProps> = ({
       </Typography>
       <Typography
         as="p"
-        variant={variant}
+        variant={variant} // Garantido que o valor seja válido
         className="mt-4 max-w-[450px] min-h-[100px]"
       >
         {description}

@@ -1,4 +1,4 @@
-import { tv } from "tailwind-variants";
+import { tv, type VariantProps } from "tailwind-variants";
 
 export const variants = tv({
   base: "scroll-m-20 text-white",
@@ -19,3 +19,6 @@ export const variants = tv({
     variant: "h1",
   },
 });
+
+// Exporta o tipo TypographyVariants
+export type TypographyVariants = VariantProps<typeof variants>;
