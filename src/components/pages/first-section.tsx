@@ -85,7 +85,7 @@ export const FirstSection: React.FC = () => {
               title={item.title} // Título do item
               subtitle={
                 // Aplicando o gradiente ao subtítulo
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[##7FD9D2]">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#7FD9D2]">
                   {item.subtitle}
                 </span>
               }
