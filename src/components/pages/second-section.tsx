@@ -36,7 +36,7 @@ export const SecondSection: React.FC = () => {
               xl:text-[56px] xl:leading-[65px]"
           >
             Plataforma de Gestão<br></br>&{" "}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#868585]">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#7FD9D2]">
               Adequação à LGPD
             </span>{" "}
           </Typography>

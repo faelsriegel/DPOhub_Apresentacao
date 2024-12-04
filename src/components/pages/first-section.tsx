@@ -10,7 +10,7 @@ import type React from "react"; // Tipagem do React para componentes funcionais
 export const FirstSection: React.FC = () => {
   // Classe de gradiente personalizada para estilizar os ícones com um efeito visual
   const gradientIconClass =
-    "bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#868585] text-transparent p-2 rounded-md"; // ícones menores e com border-radius adequado
+    "bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#7FD9D2] text-transparent p-2 rounded-md"; // ícones menores e com border-radius adequado
 
   // Definição dos itens da seção, incluindo ícones, títulos, subtítulos e descrições
   const items = [
@@ -85,7 +85,7 @@ export const FirstSection: React.FC = () => {
               title={item.title} // Título do item
               subtitle={
                 // Aplicando o gradiente ao subtítulo
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#868585]">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[##7FD9D2]">
                   {item.subtitle}
                 </span>
               }

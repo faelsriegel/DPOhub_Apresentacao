@@ -24,7 +24,7 @@ export const Hero: React.FC = () => {
         xl:text-[65px] xl:leading-[70px]
 "
         >
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#868585]">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#7FD9D2]">
             Transforme
           </span>{" "}
           a Gestão <br />

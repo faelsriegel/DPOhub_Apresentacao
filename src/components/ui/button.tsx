@@ -19,7 +19,7 @@ const buttonVariants = cva(
         outline:
           "border border-gray-300 bg-white text-gray-700 shadow-sm hover:bg-gray-100", // Botão com borda e fundo branco
         gradient:
-          "bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#909090] text-white shadow-md hover:opacity-80 hover:shadow-lg", // Botão com gradiente de cores
+          "bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#7FD9D2] text-white shadow-md hover:opacity-80 hover:shadow-lg", // Botão com gradiente de cores
         outlineMuted:
           "border border-gray-200 text-gray-500 bg-transparent hover:bg-gray-50", // Botão com borda cinza clara e fundo transparente
       },

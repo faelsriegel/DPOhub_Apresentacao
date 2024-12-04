@@ -49,7 +49,7 @@ export const Footer: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="h-10 w-10 bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#868585] text-transparent p-2 rounded-md">
+                <div className="h-10 w-10 bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#7FD9D2] text-transparent p-2 rounded-md">
                   <Linkedin
                     className="h-full w-full text-white"
                     strokeWidth={1.5}
@@ -62,7 +62,7 @@ export const Footer: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="h-10 w-10 bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#868585] text-transparent p-2 rounded-md">
+                <div className="h-10 w-10 bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#7FD9D2] text-transparent p-2 rounded-md">
                   <Youtube
                     className="h-full w-full text-white"
                     strokeWidth={1.5}
@@ -75,7 +75,7 @@ export const Footer: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <div className="h-10 w-10 bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#868585] text-transparent p-2 rounded-md">
+                <div className="h-10 w-10 bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#7FD9D2] text-transparent p-2 rounded-md">
                   <Instagram
                     className="h-full w-full text-white"
                     strokeWidth={1.5}
@@ -140,7 +140,7 @@ export const Footer: React.FC = () => {
               <li>
                 <a
                   href="#"
-                  className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#868585]"
+                  className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#7FD9D2]"
                 >
                   Termos de Uso
                 </a>
@@ -148,7 +148,7 @@ export const Footer: React.FC = () => {
               <li>
                 <a
                   href="#"
-                  className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#868585]"
+                  className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#7FD9D2]"
                 >
                   Política de Privacidade
                 </a>
@@ -156,7 +156,7 @@ export const Footer: React.FC = () => {
               <li>
                 <a
                   href="#"
-                  className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#868585]"
+                  className="text-transparent bg-clip-text bg-gradient-to-r from-[#5276a0] via-[#89adcc] to-[#7FD9D2]"
                 >
                   Código de Conduta
                 </a>
